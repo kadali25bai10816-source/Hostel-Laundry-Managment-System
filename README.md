@@ -85,4 +85,32 @@ Expected Result: Console displays "This student already has an active or queued 
 Choose Option 8 to exit.
 Relaunch the app using java HostelLaundrySystem.
 Choose Option 1.
-Expected Result: Machine 1 stays active with student S102 in line, confirming that laundry_data.txt loaded properly. 
+Expected Result: Machine 1 stays active with student S102 in line, confirming that laundry_data.txt loaded properly.
+
+OUTPUT:
+===============================================
+     HOSTEL LAUNDRY QUEUE & BOOKING SYSTEM
+===============================================
+
+1. View live machine status and queues
+2. Register student
+3. Reserve a machine / join its queue
+4. Mark a wash cycle as completed
+5. View student notifications
+6. Report a machine fault
+7. Mark a machine as repaired
+8. Exit
+Choose an option: 1
+
+--- LIVE LAUNDRY STATUS ---
+Machine 1: RUNNING
+  In use by: Aarav Sharma (S101)
+  Expected finish: 18 Sep, 08:05 PM
+  Waiting queue:
+    1. Priya Patel (S102) — joined 18 Sep, 07:20 PM
+Machine 2: AVAILABLE
+  Waiting queue: empty
+Machine 3: AVAILABLE
+  Waiting queue: empty
+Machine 4: AVAILABLE
+  Waiting queue: empty
