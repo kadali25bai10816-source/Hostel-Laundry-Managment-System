@@ -38,7 +38,7 @@ Steps
 
 Clone the repository:
 Bash
-git clone https://github.com/your-username/hostel-laundry-system.git
+git clone https://github.com/kadali25bai10816-source/Hostel-Laundry-Managment-System.git
 cd hostel-laundry-system
 
 
