@@ -1,7 +1,8 @@
 # Hostel-Laundry-Managment-System
 An efficient console-based application designed to streamline laundry scheduling and waitlist management in student residences. The system tracks real-time machine availability, prevents duplicate bookings, and automatically saves state to laundry_data.txt to ensure full data persistence across restarts.
 A Java CLI application that manages hostel laundry machine availability, queue reservations, fault logging, and notifications.
-Overview
+
+**OVERVIEW**
 
 In student hostels laundry management is a mess.
 Ways to use this project
@@ -9,7 +10,7 @@ There's a command line interface (CLI) that can be used in Java Integrated Devel
 
 
 
-Key Features
+**KEY FEATURES**
 
 Machine Status Monitoring: View real-time statuses (AVAILABLE, RUNNING, OUT_OF_SERVICE), current user, calculated finish time, and active queues.
 Smart Queueing System: Uses FIFO queues (ArrayDeque) for each machine. If a machine is busy, students join the queue and get updated on their queue position.
@@ -19,14 +20,14 @@ In-App Notifications: The app notifies a student when their cycle has started, h
 Single-booking limit: Keeps students from having more than one active booking or queue spot at a time. 
 
 
-Technologies & Tools
+**TECHNOLOGIES AND TOOLS**
 
 Language: Java 17+ (utilizes modern switch expressions and standard library data structures)
 Data Structures: LinkedHashMap, HashMap, ArrayDeque, ArrayList
 File Handling: BufferedReader, BufferedWriter, FileReader, FileWriter
 Development Environment: VS Code / IntelliJ IDEA / Eclipse
 
-Prerequisites & Installation
+**PREREQUISITES & INSTALLATION**
 
 Prerequisites
 
@@ -56,7 +57,7 @@ java HostelLaundrySystem
 
 Note:When the program runs for the first time, it automatically sets up laundry_data.txt using the default student records for S101 and S102.
 
-Testing Instructions
+**TESTING INSTRUCTIONS**
 
 Follow these simple console test cases to verify that all features are working properly: 
 1. View Initial Machine Status
